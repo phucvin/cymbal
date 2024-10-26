@@ -563,7 +563,7 @@ mod tests {
                     "foobar".to_string(),
                     Expression::Infix(
                         Infix::Plus,
-                        Box::new(Expression::Identifier("x".to_string())),
+                        Box::new(Expression::Identifier("x".into())),
                         Box::new(Expression::Identifier("y".to_string()))
                     )
                 )

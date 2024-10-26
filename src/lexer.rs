@@ -248,7 +248,7 @@ mod tests {
             Token::Let,
             Token::Ident("five".to_string()),
             Token::Assign,
-            Token::Int("5".to_string()),
+            Token::Int("5".into()),
             Token::Semicolon,
             Token::Let,
             Token::Ident("ten".to_string()),
